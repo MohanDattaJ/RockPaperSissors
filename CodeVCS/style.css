@@ -1,0 +1,33 @@
+.Game button{
+    border-radius: 5mm;
+    width: 2cm;
+    height: 2cm;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.Rest button{
+    width: 5cm;
+    height: 10mm;
+    background-color: red;
+    font-style: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(238, 255, 0);
+    font-style: bold;
+    -moz-text-blink: 2;
+}
+.Game button:hover{
+    background-color: rgba(0, 255, 255, 0.334);
+}
+.Rest button:hover{
+  animation: blinker 0.4s linear infinite; 
+
+}
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+}
+body{
+    background-color: rgba(0, 0, 0, 0.504);
+}
